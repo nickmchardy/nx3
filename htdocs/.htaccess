@@ -1,0 +1,15 @@
+#
+# nx3 - ReWrite Engine for Apache
+#
+# Enables nice URLs like http://www.example.com/site/article/viewarticle/home/ to be utilised with Apache.
+
+RewriteEngine on
+RewriteRule ^3rdparty/ - [L]
+RewriteRule ^custom/ - [L]
+RewriteRule ^images/ - [L]
+RewriteRule ^smilies/ - [L]
+RewriteRule ^favicon.ico - [L]
+RewriteRule ^robots.txt - [L]
+RewriteRule ^fatal_error.html - [L]
+RewriteRule ^maintenance_mode.html - [L]
+RewriteRule ^(.+)/?$ index.php?/$1/ [L]

@@ -1,0 +1,117 @@
+body
+{
+  font-family: Tahoma, Verdana, Arial, Helvetica, Sans-serif;
+  font-size:100%;
+
+  background: #ffffff;
+   
+  background-image: url('bg.jpg');
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+div.topbar
+{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 101;
+  background-image: url('bg-top.png');
+  background-repeat: repeat-x;
+  width: 100%; 
+  height: 112px;
+}
+
+div.topimage
+{
+  width: 950px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url('top.png'); 
+}
+
+div.topspacer
+{
+  height: 112px;
+}
+
+div.menubutton
+{
+  position: absolute;
+  top: 57px;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+}
+
+a
+{
+  text-decoration: none;
+}
+  a:link { color: #F60000; text-decoration: none; }  /* for unvisited links */
+  a:visited { color: #F60000; text-decoration: none; } /* for visited links */
+  a:active { color: #F60000; text-decoration: none; } /* when link is clicked */
+  a:hover { color: #3D0708; text-decoration: none; }  /* when mouse is over link */
+
+div.heading
+{
+  color: #505050;
+  font-family: Arial, Helvetica, Sans-serif;
+  font-weight: bold;
+  font-size: 105%;
+  padding: 5px 0px 10px 1px;
+  background-image: url('bg-heading.png');
+  background-position: 0px 12px;
+  background-repeat: no-repeat;
+}
+
+div.content_heading
+{
+  color: #EF4723;
+  font-family: Arial, Helvetica, Sans-serif;
+  font-weight: bold;
+  font-size: 105%;
+  padding: 5px 0px 10px 1px;
+  background-image: url('bg-heading.png');
+  background-position: 0px 12px;
+  background-repeat: no-repeat;
+}
+
+table.contenttable
+{
+  position: absolute;
+  left: 235px;
+  top: 100px;
+  width: 77%; /*654px;*/
+  padding: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  z-index: 1;
+}
+
+table.sidetable
+{
+  position: absolute;
+  left: 5px;
+  top: 100px;
+  width: 241px;
+  padding: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  z-index: 1;
+}
+
+td.frame
+{
+  padding: 0px;
+}
+
+td.contentcell
+{
+  background-image: url('grid.png');
+  padding: 7px;
+}
+

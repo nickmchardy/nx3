@@ -1,0 +1,108 @@
+/*
+
+nx3_base.css - Customise as per your own template's requirements.
+All of these classes are used by the standard nx3 templates.
+Do not add or remove any classes.
+
+*/
+
+a.nx3_menu
+{
+  font-family: Tahoma, Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 80%;
+}
+
+a.nx3_small, td.nx3_small, p.nx3_small
+{
+  font-size: 75%;
+}
+
+div.nx3_activity_event_avatar
+{
+  text-align: center;
+}
+
+div.nx3_caption
+{
+  text-align: center;
+  font-size: 80%;
+  color: #666666;
+}
+
+div.nx3_content_cell
+{
+  margin: 0px 10px 0px 10px;
+  font-size: 90%;
+}
+
+td.nx3_content_cell
+{
+  background-image: url('table_bg.png');
+}
+
+div.nx3_content_cell_header, tr.nx3_header
+{
+  font-size: 90%;
+  font-weight: bold;
+  margin: 5px 10px 5px 10px;
+}
+
+tr.nx3_enabled, td.nx3_enabled
+{
+  background-color: d5ffe1;
+}
+
+tr.nx3_disabled, td.nx3_disabled
+{
+  background-color: ffd5d5;
+}
+
+div.nx3_content_cell_footer
+{
+  font-size: 80%;
+  color: #666666;
+  margin: 5px 10px 5px 10px;
+}
+
+div.nx3_content_cell_right
+{
+  margin: 5px 5px 5px 0px;
+}
+
+div.nx3_content_heading
+{
+  font-family: Times New Roman;
+  color: #EF4723;
+  text-align: left;
+  font-size: 150%;
+}
+
+table.nx3_content
+{
+  border: 1px solid;
+  width: 98%;
+}
+
+div.nx3_flashcontent
+{
+}
+
+table.nx3_mini
+{
+}
+
+td.nx3_content_middle_cell
+{
+  background-image: url('table_bg_arrow.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+div.nx3_message
+{
+  background-color: #fbf9d9;
+  padding: 2px 15px 2px 15px;
+  width: 90%;
+}
+
+

@@ -1,0 +1,1 @@
+Currently logged in as {$nx3_auth_username} - [<a href="{$SITE_URL}login/logout/">logout</a>]
